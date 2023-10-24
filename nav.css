@@ -1,0 +1,340 @@
+/* Header */
+header{
+   
+    z-index: 100;
+   
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+header .nav_1{
+    height: 4rem;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0;
+    font-size: .8rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 0 1rem 0 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header .nav_1 a{
+    padding: 0 10px;
+    transition: 04s;
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    
+
+}
+header .nav_1 a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+header .nav_1 img{
+    height: 2rem;
+    width: 10rem;
+    
+    padding-left:  7rem ;
+    
+}
+
+header .nav_1 ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+   padding-right: 7rem;
+    
+}
+
+header .nav_2{
+    height: 6rem;
+    background: #007aff;
+    width: 100%;
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 0 1rem 0 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header .nav_2 .search{
+    padding-left: 1rem;
+    flex:1;
+    padding-right: 7rem;
+    display: flex;
+    
+    
+}
+header .nav_2 .search input{
+    margin-top: 1rem;
+    height: 1.7rem;
+    
+}
+
+
+header .nav_2 .search button{
+    background-color: #555555;
+    border: none;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  height: 1rem;
+  margin-top: 1rem;
+  width: 3rem;
+  
+  
+}
+header .nav_2 .search button a{
+    margin-top: 5rem;
+    text-decoration: none;
+    
+}
+
+
+
+header .nav_2 .tabs{
+    position: relative;
+  display: inline-block;
+  
+}
+
+header .nav_2 .tabs .dropbutton{
+    margin-top: 1rem; 
+    height: 2rem;
+    margin-left: 7.5rem;
+    width: 10.5rem;
+    background-color: #555555;
+    color: white;
+    border: none;
+    
+    
+}
+
+header .nav_2 .tabs .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  z-index: 1;
+  padding-right: 7rem;
+  margin-left: 7.5rem;
+  width: 3.5rem;
+  }
+
+  header .nav_2 .tabs .dropdown-content button{
+    width: 10.6rem;
+    border: none;
+    height: 1.5rem;
+    align-items: start;
+    
+  }
+
+  header .nav_2 .tabs .dropdown-content button:hover{
+    background-color: #bfbfbf;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+header .nav_2 .buttons{
+    display: flex;
+    padding-left: 19rem;
+    padding-right: 7rem;
+    align-items: center;
+    border-radius: 10%;
+}
+header .nav_2 .buttons button{
+    width: 8rem;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    border: none;
+    margin-bottom: 2rem;
+    height: 2rem;
+    border-right: 1px solid rgb(197, 195, 195);
+}
+
+header .nav_2 .buttons button:hover{
+    
+    transition: 0.4s;
+    background-color: #bfbfbf;
+    cursor: pointer;
+}
+
+/* First Body */
+.firstbody{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.firstbody .banner1{
+    height: 38vh;
+    background: url(/img/sale.webp);
+    width: 43rem;
+    margin-left: 18.5rem;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.firstbody .brands{
+    margin-top: 1rem;
+    width: 43rem;
+    margin-left: 18.5rem;
+    background: #ffffff;
+    height: 20vh;
+    align-items: center;
+}
+
+.firstbody .brands .brand_logos{
+    margin-left: 2rem;
+
+}
+
+
+.firstbody .brands .brand_logos img{
+    width: 6rem;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2.4rem;
+    margin-left: .7rem;
+
+}
+.firstbody .brands .brand_logos:hover{
+    color: #555555;
+}
+
+
+.firstbody .banner2def{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.firstbody .banner2def .banner2def_1{
+    height: 9.7vh;
+    width: 19.1rem;
+    background:url(/img/order.png);
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.firstbody .banner2def .banner2def_2{
+    margin-top: 1rem;
+    background: url(/img/sidesale.webp);
+    height: 42vh;
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+
+/* Second Body */
+
+.body2{
+    flex-direction: column;
+    background: #eeebeb;
+    margin-top: 1rem;
+    width:100%;
+    height:auto;
+    background-size: cover;
+
+}
+.secondbody{
+    display:flex
+}
+
+.secondbody .head1{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #555555;
+    font-size: 1.4rem;
+}
+
+.secondbody .head1 button{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #555555;
+    font-size: 1rem;
+    background:none;
+    border: 1px solid black;
+    align-items: center;
+    width: 6.3rem;
+    height: 2rem;
+    margin-left: 30.5rem;
+}
+
+.products{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+    height: 35vh;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    background-position: center;
+    
+    width: 10.8rem;
+    display: flex;
+    
+}
+
+.products:hover{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.secondbody .head2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+    height: 44vh;
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    background-size:19rem;
+    
+    background-blend-mode: overlay;
+    width: 19.1rem;
+}
+
+
+/* 
+margin-left: 1rem;
+    height: 55vh;
+    background: #555555;
+    width: 19.1rem;
+    border: #f9f9f9;
+    border-width: 5rem; */
